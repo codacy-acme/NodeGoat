@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <ruleset name="Codacy Generated Rules File" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
     <description> Codacy Generated Rules File </description>
-    <rule message="Deeply nested if..then statements are hard to read" ref="category/apex/design.xml/AvoidDeeplyNestedIfStmts"></rule>
-    <rule message="Avoid really long classes." ref="category/apex/design.xml/ExcessiveClassLength"></rule>
-    <rule message="Avoid long parameter lists." ref="category/apex/design.xml/ExcessiveParameterList"></rule>
-    <rule message="This class has a bunch of public methods and attributes" ref="category/apex/design.xml/ExcessivePublicCount"></rule>
-    <rule message="Apex classes should use random IV/key" ref="category/apex/security.xml/ApexBadCrypto"></rule>
-    <rule message="Validate CRUD permission before SOQL/DML operation" ref="category/apex/security.xml/ApexCRUDViolation"></rule>
-    <rule message="Calling potentially dangerous method" ref="category/apex/security.xml/ApexDangerousMethods"></rule>
-    <rule message="Apex callouts should use encrypted communication channels" ref="category/apex/security.xml/ApexInsecureEndpoint"></rule>
-    <rule message="Apex classes should safely redirect to a known location" ref="category/apex/security.xml/ApexOpenRedirect"></rule>
-    <rule message="Avoid untrusted/unescaped variables in DML query" ref="category/apex/security.xml/ApexSOQLInjection"></rule>
-    <rule message="Apex classes should declare a sharing model if DML or SOQL/SOSL is used" ref="category/apex/security.xml/ApexSharingViolations"></rule>
-    <rule message="Suggest named credentials for authentication" ref="category/apex/security.xml/ApexSuggestUsingNamedCred"></rule>
-    <rule message="Apex classes should escape Strings in error messages" ref="category/apex/security.xml/ApexXSSFromEscapeFalse"></rule>
-    <rule message="Apex classes should escape/sanitize Strings obtained from URL parameters" ref="category/apex/security.xml/ApexXSSFromURLParam"></rule>
-    <rule message="Avoid using with - it's bad news" ref="category/ecmascript/bestpractices.xml/AvoidWithStatement"></rule>
-    <rule message="A function should not mix 'return' statements with and without a result." ref="category/ecmascript/bestpractices.xml/ConsistentReturn"></rule>
-    <rule message="Always provide a base when using parseInt() functions" ref="category/ecmascript/bestpractices.xml/UseBaseWithParseInt"></rule>
-    <rule message="Avoid assignments in operands" ref="category/ecmascript/codestyle.xml/AssignmentInOperand">
+    <rule message="Deeply nested if..then statements are hard to read" ref="category/apex/design.xml/"></rule>
+    <rule message="Avoid really long classes." ref="category/apex/design.xml/"></rule>
+    <rule message="Avoid long parameter lists." ref="category/apex/design.xml/"></rule>
+    <rule message="This class has a bunch of public methods and attributes" ref="category/apex/design.xml/"></rule>
+    <rule message="Apex classes should use random IV/key" ref="category/apex/security.xml/"></rule>
+    <rule message="Validate CRUD permission before SOQL/DML operation" ref="category/apex/security.xml/"></rule>
+    <rule message="Calling potentially dangerous method" ref="category/apex/security.xml/"></rule>
+    <rule message="Apex callouts should use encrypted communication channels" ref="category/apex/security.xml/"></rule>
+    <rule message="Apex classes should safely redirect to a known location" ref="category/apex/security.xml/"></rule>
+    <rule message="Avoid untrusted/unescaped variables in DML query" ref="category/apex/security.xml/"></rule>
+    <rule message="Apex classes should declare a sharing model if DML or SOQL/SOSL is used" ref="category/apex/security.xml/"></rule>
+    <rule message="Suggest named credentials for authentication" ref="category/apex/security.xml/"></rule>
+    <rule message="Apex classes should escape Strings in error messages" ref="category/apex/security.xml/"></rule>
+    <rule message="Apex classes should escape/sanitize Strings obtained from URL parameters" ref="category/apex/security.xml/"></rule>
+    <rule message="Avoid using with - it's bad news" ref="category/ecmascript/bestpractices.xml/"></rule>
+    <rule message="A function should not mix 'return' statements with and without a result." ref="category/ecmascript/bestpractices.xml/"></rule>
+    <rule message="Always provide a base when using parseInt() functions" ref="category/ecmascript/bestpractices.xml/"></rule>
+    <rule message="Avoid assignments in operands" ref="category/ecmascript/codestyle.xml/">
         <properties>
             <property name="allowIf">
                 <value>false</value>
@@ -40,123 +40,123 @@
             </property>
         </properties>
     </rule>
-    <rule message="Unnecessary block." ref="category/ecmascript/codestyle.xml/UnnecessaryBlock"></rule>
-    <rule message="Use '==='/'!==' to compare with true/false or Numbers" ref="category/ecmascript/errorprone.xml/EqualComparison"></rule>
-    <rule message="The numeric literal ''{0}'' will have at different value at runtime." ref="category/ecmascript/errorprone.xml/InnaccurateNumericLiteral"></rule>
-    <rule message="Avoid reassigning parameters." ref="category/java/bestpractices.xml/AvoidReassigningParameters"></rule>
-    <rule message="Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet." ref="category/java/bestpractices.xml/CheckResultSet"></rule>
-    <rule message="JUnit tests should include assert() or fail()" ref="category/java/bestpractices.xml/JUnitTestsShouldIncludeAssert"></rule>
-    <rule message="Use one line for each declaration, it enhances code readability." ref="category/java/bestpractices.xml/OneDeclarationPerLine">
+    <rule message="Unnecessary block." ref="category/ecmascript/codestyle.xml/"></rule>
+    <rule message="Use '==='/'!==' to compare with true/false or Numbers" ref="category/ecmascript/errorprone.xml/"></rule>
+    <rule message="The numeric literal ''{0}'' will have at different value at runtime." ref="category/ecmascript/errorprone.xml/"></rule>
+    <rule message="Avoid reassigning parameters." ref="category/java/bestpractices.xml/"></rule>
+    <rule message="Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet." ref="category/java/bestpractices.xml/"></rule>
+    <rule message="JUnit tests should include assert() or fail()" ref="category/java/bestpractices.xml/"></rule>
+    <rule message="Use one line for each declaration, it enhances code readability." ref="category/java/bestpractices.xml/">
         <properties>
             <property name="strictMode">
                 <value>false</value>
             </property>
         </properties>
     </rule>
-    <rule message="Switch statements should be exhaustive, add a default case (or missing enum branches)" ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault"></rule>
-    <rule message="Avoid unused {0} parameters." ref="category/java/bestpractices.xml/UnusedFormalParameter"></rule>
-    <rule message="Avoid unused local variables." ref="category/java/bestpractices.xml/UnusedLocalVariable"></rule>
-    <rule message="Avoid unused private fields." ref="category/java/bestpractices.xml/UnusedPrivateField"></rule>
-    <rule message="Avoid unused private methods." ref="category/java/bestpractices.xml/UnusedPrivateMethod"></rule>
-    <rule message="The {0} name ''{1}'' doesn''t match ''{2}''" ref="category/java/codestyle.xml/ClassNamingConventions"></rule>
-    <rule message="No need to explicitly extend Object." ref="category/java/codestyle.xml/ExtendsObject"></rule>
-    <rule message="Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes." ref="category/java/codestyle.xml/FieldDeclarationsShouldBeAtStartOfClass"></rule>
-    <rule message="Generics names should be a one letter long and upper case." ref="category/java/codestyle.xml/GenericsNaming"></rule>
-    <rule message="The {0} name ''{1}'' doesn''t match ''{2}''" ref="category/java/codestyle.xml/MethodNamingConventions"></rule>
-    <rule message="All classes, interfaces, enums and annotations must belong to a named package" ref="category/java/codestyle.xml/NoPackage"></rule>
-    <rule message="Package name contains upper case characters" ref="category/java/codestyle.xml/PackageCase"></rule>
-    <rule message="Avoid unnecessary constructors - the compiler will generate these for you" ref="category/java/codestyle.xml/UnnecessaryConstructor"></rule>
-    <rule message="Unnecessary use of fully qualified name ''{0}'' due to existing {2}import ''{1}''" ref="category/java/codestyle.xml/UnnecessaryFullyQualifiedName"></rule>
-    <rule message="Avoid unnecessary return statements" ref="category/java/codestyle.xml/UnnecessaryReturn"></rule>
-    <rule message="Avoid throwing null pointer exceptions." ref="category/java/design.xml/AvoidThrowingNullPointerException"></rule>
-    <rule message="Avoid throwing raw exception types." ref="category/java/design.xml/AvoidThrowingRawExceptionTypes"></rule>
-    <rule message="These nested if statements could be combined" ref="category/java/design.xml/CollapsibleIfStatements"></rule>
-    <rule message="Avoid really long classes." ref="category/java/design.xml/ExcessiveClassLength"></rule>
-    <rule message="Avoid really long methods." ref="category/java/design.xml/ExcessiveMethodLength"></rule>
-    <rule message="Avoid long parameter lists." ref="category/java/design.xml/ExcessiveParameterList"></rule>
-    <rule message="Use opposite operator instead of the logic complement operator." ref="category/java/design.xml/LogicInversion"></rule>
-    <rule message="The {0} ''{1}'' has an NPath complexity of {2}, current threshold is {3}" ref="category/java/design.xml/NPathComplexity"></rule>
-    <rule message="assertTrue(!expr) can be replaced by assertFalse(expr)" ref="category/java/design.xml/SimplifyBooleanAssertion"></rule>
-    <rule message="Avoid unnecessary comparisons in boolean expressions" ref="category/java/design.xml/SimplifyBooleanExpressions"></rule>
-    <rule message="Avoid unnecessary if..then..else statements when returning booleans" ref="category/java/design.xml/SimplifyBooleanReturns"></rule>
-    <rule message="Perhaps ''{0}'' could be replaced by a local variable." ref="category/java/design.xml/SingularField"></rule>
-    <rule message="Document empty method body" ref="category/java/documentation.xml/UncommentedEmptyMethodBody"></rule>
-    <rule message="Possible unsafe assignment to a non-final static field in a constructor." ref="category/java/errorprone.xml/AssignmentToNonFinalStatic"></rule>
-    <rule message="You should not modify visibility of class or methods using getDeclaredConstructors(), getDeclaredConstructor(Class[]), setAccessible() or PrivilegedAction." ref="category/java/errorprone.xml/AvoidAccessibilityAlteration"></rule>
-    <rule message="Avoid using a branching statement as the last in a loop." ref="category/java/errorprone.xml/AvoidBranchingStatementAsLastInLoop"></rule>
-    <rule message="Avoid calling finalize() explicitly" ref="category/java/errorprone.xml/AvoidCallingFinalize"></rule>
-    <rule message="Avoid creating BigDecimal with a decimal (float/double) literal. Use a String literal" ref="category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor"></rule>
-    <rule message="An instanceof check is being performed on the caught exception. Create a separate catch clause for this exception type." ref="category/java/errorprone.xml/AvoidInstanceofChecksInCatchClause"></rule>
-    <rule message="Using multiple unary operators may be a bug, and/or is confusing." ref="category/java/errorprone.xml/AvoidMultipleUnaryOperators"></rule>
-    <rule message="Method call on object which may be null" ref="category/java/errorprone.xml/BrokenNullCheck"></rule>
-    <rule message="Check the value returned by the skip() method of an InputStream to see if the requested number of bytes has been skipped." ref="category/java/errorprone.xml/CheckSkipResult"></rule>
-    <rule message="Use equals() to compare object references." ref="category/java/errorprone.xml/CompareObjectsWithEquals">
+    <rule message="Switch statements should be exhaustive, add a default case (or missing enum branches)" ref="category/java/bestpractices.xml/"></rule>
+    <rule message="Avoid unused {0} parameters." ref="category/java/bestpractices.xml/"></rule>
+    <rule message="Avoid unused local variables." ref="category/java/bestpractices.xml/"></rule>
+    <rule message="Avoid unused private fields." ref="category/java/bestpractices.xml/"></rule>
+    <rule message="Avoid unused private methods." ref="category/java/bestpractices.xml/"></rule>
+    <rule message="The {0} name ''{1}'' doesn''t match ''{2}''" ref="category/java/codestyle.xml/"></rule>
+    <rule message="No need to explicitly extend Object." ref="category/java/codestyle.xml/"></rule>
+    <rule message="Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes." ref="category/java/codestyle.xml/"></rule>
+    <rule message="Generics names should be a one letter long and upper case." ref="category/java/codestyle.xml/"></rule>
+    <rule message="The {0} name ''{1}'' doesn''t match ''{2}''" ref="category/java/codestyle.xml/"></rule>
+    <rule message="All classes, interfaces, enums and annotations must belong to a named package" ref="category/java/codestyle.xml/"></rule>
+    <rule message="Package name contains upper case characters" ref="category/java/codestyle.xml/"></rule>
+    <rule message="Avoid unnecessary constructors - the compiler will generate these for you" ref="category/java/codestyle.xml/"></rule>
+    <rule message="Unnecessary use of fully qualified name ''{0}'' due to existing {2}import ''{1}''" ref="category/java/codestyle.xml/"></rule>
+    <rule message="Avoid unnecessary return statements" ref="category/java/codestyle.xml/"></rule>
+    <rule message="Avoid throwing null pointer exceptions." ref="category/java/design.xml/"></rule>
+    <rule message="Avoid throwing raw exception types." ref="category/java/design.xml/"></rule>
+    <rule message="These nested if statements could be combined" ref="category/java/design.xml/"></rule>
+    <rule message="Avoid really long classes." ref="category/java/design.xml/"></rule>
+    <rule message="Avoid really long methods." ref="category/java/design.xml/"></rule>
+    <rule message="Avoid long parameter lists." ref="category/java/design.xml/"></rule>
+    <rule message="Use opposite operator instead of the logic complement operator." ref="category/java/design.xml/"></rule>
+    <rule message="The {0} ''{1}'' has an NPath complexity of {2}, current threshold is {3}" ref="category/java/design.xml/"></rule>
+    <rule message="assertTrue(!expr) can be replaced by assertFalse(expr)" ref="category/java/design.xml/"></rule>
+    <rule message="Avoid unnecessary comparisons in boolean expressions" ref="category/java/design.xml/"></rule>
+    <rule message="Avoid unnecessary if..then..else statements when returning booleans" ref="category/java/design.xml/"></rule>
+    <rule message="Perhaps ''{0}'' could be replaced by a local variable." ref="category/java/design.xml/"></rule>
+    <rule message="Document empty method body" ref="category/java/documentation.xml/"></rule>
+    <rule message="Possible unsafe assignment to a non-final static field in a constructor." ref="category/java/errorprone.xml/"></rule>
+    <rule message="You should not modify visibility of class or methods using getDeclaredConstructors(), getDeclaredConstructor(Class[]), setAccessible() or PrivilegedAction." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid using a branching statement as the last in a loop." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid calling finalize() explicitly" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid creating BigDecimal with a decimal (float/double) literal. Use a String literal" ref="category/java/errorprone.xml/"></rule>
+    <rule message="An instanceof check is being performed on the caught exception. Create a separate catch clause for this exception type." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Using multiple unary operators may be a bug, and/or is confusing." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Method call on object which may be null" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Check the value returned by the skip() method of an InputStream to see if the requested number of bytes has been skipped." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Use equals() to compare object references." ref="category/java/errorprone.xml/">
         <properties>
             <property name="typesThatCompareByReference">
                 <value>java.lang.Enum,java.lang.Class</value>
             </property>
         </properties>
     </rule>
-    <rule message="Do not hardcode /sdcard." ref="category/java/errorprone.xml/DoNotHardCodeSDCard"></rule>
-    <rule message="Don't use floating point for loop indices. If you must use floating point, use double." ref="category/java/errorprone.xml/DontUseFloatTypeForLoopIndices"></rule>
-    <rule message="Avoid empty finalize methods" ref="category/java/errorprone.xml/EmptyFinalizer"></rule>
-    <rule message="Avoid empty finally blocks" ref="category/java/errorprone.xml/EmptyFinallyBlock"></rule>
-    <rule message="Avoid empty 'if' statements" ref="category/java/errorprone.xml/EmptyIfStmt"></rule>
-    <rule message="Empty initializer was found" ref="category/java/errorprone.xml/EmptyInitializer"></rule>
-    <rule message="Avoid empty block statements." ref="category/java/errorprone.xml/EmptyStatementBlock"></rule>
-    <rule message="An empty statement (semicolon) not part of a loop" ref="category/java/errorprone.xml/EmptyStatementNotInLoop"></rule>
-    <rule message="Avoid empty switch statements" ref="category/java/errorprone.xml/EmptySwitchStatements"></rule>
-    <rule message="Avoid empty synchronized blocks" ref="category/java/errorprone.xml/EmptySynchronizedBlock"></rule>
-    <rule message="Avoid empty try blocks" ref="category/java/errorprone.xml/EmptyTryBlock"></rule>
-    <rule message="Avoid using equals() to compare against null" ref="category/java/errorprone.xml/EqualsNull"></rule>
-    <rule message="You may have misspelled a JUnit framework method (setUp or tearDown)" ref="category/java/errorprone.xml/JUnitSpelling"></rule>
-    <rule message="You have a suite() method that is not both public and static, so JUnit won't call it to get your TestSuite. Is that what you wanted to do?" ref="category/java/errorprone.xml/JUnitStaticSuite"></rule>
-    <rule message="Avoid modifying an outer loop incrementer in an inner loop for update expression" ref="category/java/errorprone.xml/JumbledIncrementer"></rule>
-    <rule message="Classes should not have non-constructor methods with the same name as the class" ref="category/java/errorprone.xml/MethodWithSameNameAsEnclosingClass"></rule>
-    <rule message="The null check here is misplaced; if the variable ''{0}'' is null there will be a NullPointerException" ref="category/java/errorprone.xml/MisplacedNullCheck"></rule>
-    <rule message="A switch statement does not contain a break" ref="category/java/errorprone.xml/MissingBreakInSwitch"></rule>
-    <rule message="Class cannot be instantiated and does not provide any static methods or fields" ref="category/java/errorprone.xml/MissingStaticMethodInNonInstantiatableClass">
+    <rule message="Do not hardcode /sdcard." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Don't use floating point for loop indices. If you must use floating point, use double." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty finalize methods" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty finally blocks" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty 'if' statements" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Empty initializer was found" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty block statements." ref="category/java/errorprone.xml/"></rule>
+    <rule message="An empty statement (semicolon) not part of a loop" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty switch statements" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty synchronized blocks" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid empty try blocks" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid using equals() to compare against null" ref="category/java/errorprone.xml/"></rule>
+    <rule message="You may have misspelled a JUnit framework method (setUp or tearDown)" ref="category/java/errorprone.xml/"></rule>
+    <rule message="You have a suite() method that is not both public and static, so JUnit won't call it to get your TestSuite. Is that what you wanted to do?" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid modifying an outer loop incrementer in an inner loop for update expression" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Classes should not have non-constructor methods with the same name as the class" ref="category/java/errorprone.xml/"></rule>
+    <rule message="The null check here is misplaced; if the variable ''{0}'' is null there will be a NullPointerException" ref="category/java/errorprone.xml/"></rule>
+    <rule message="A switch statement does not contain a break" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Class cannot be instantiated and does not provide any static methods or fields" ref="category/java/errorprone.xml/">
         <properties>
             <property name="annotations">
                 <value>org.springframework.beans.factory.annotation.Autowired,javax.inject.Inject</value>
             </property>
         </properties>
     </rule>
-    <rule message="A non-case label was present in a switch statement" ref="category/java/errorprone.xml/NonCaseLabelInSwitchStatement"></rule>
-    <rule message="Non-static initializers are confusing" ref="category/java/errorprone.xml/NonStaticInitializer"></rule>
-    <rule message="Avoid returning from a finally block" ref="category/java/errorprone.xml/ReturnFromFinallyBlock"></rule>
-    <rule message="Do not use 'if' statements that are always true or always false" ref="category/java/errorprone.xml/UnconditionalIfStatement"></rule>
-    <rule message="assertTrue(true) or similar statements are unnecessary" ref="category/java/errorprone.xml/UnnecessaryBooleanAssertion"></rule>
-    <rule message="Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals()." ref="category/java/errorprone.xml/UnnecessaryCaseChange"></rule>
-    <rule message="Use equals() to compare strings instead of ''=='' or ''!=''" ref="category/java/errorprone.xml/UseEqualsToCompareStrings"></rule>
-    <rule message="An operation on an Immutable object (String, BigDecimal or BigInteger) won't change the object itself" ref="category/java/errorprone.xml/UselessOperationOnImmutable"></rule>
-    <rule message="Avoid using java.lang.ThreadGroup; it is not thread safe" ref="category/java/multithreading.xml/AvoidThreadGroup"></rule>
-    <rule message="Don't call Thread.run() explicitly, use Thread.start()" ref="category/java/multithreading.xml/DontCallThreadRun"></rule>
-    <rule message="Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead." ref="category/java/performance.xml/BooleanInstantiation"></rule>
-    <rule message="Avoid instantiating String objects; this is usually unnecessary." ref="category/java/performance.xml/StringInstantiation"></rule>
-    <rule message="Avoid calling toString() on String objects; this is unnecessary." ref="category/java/performance.xml/StringToString"></rule>
-    <rule message="This is an inefficient use of StringBuffer.toString; call StringBuffer.length instead." ref="category/java/performance.xml/UseStringBufferLength"></rule>
-    <rule message="Do not nest JSF component custom actions inside a custom action that iterates over its body." ref="category/jsp/bestpractices.xml/DontNestJsfInJstlIteration"></rule>
-    <rule message="Do not use an attribute called 'class'." ref="category/jsp/bestpractices.xml/NoClassAttribute"></rule>
-    <rule message="Use JSP comments instead of HTML comments" ref="category/jsp/bestpractices.xml/NoHtmlComments"></rule>
-    <rule message="Do not do a forward from within a JSP file." ref="category/jsp/bestpractices.xml/NoJspForward"></rule>
-    <rule message="Avoid duplicate imports." ref="category/jsp/codestyle.xml/DuplicateJspImports"></rule>
-    <rule message="Avoiding inlining HTML script content" ref="category/jsp/design.xml/NoInlineScript"></rule>
-    <rule message="Avoid having style information in JSP files." ref="category/jsp/design.xml/NoInlineStyleInformation"></rule>
-    <rule message="Avoid having long scripts (e.g. Javascript) inside a JSP file." ref="category/jsp/design.xml/NoLongScripts"></rule>
-    <rule message="Avoid having scriptlets inside a JSP file." ref="category/jsp/design.xml/NoScriptlets"></rule>
-    <rule message="JSP file should use UTF-8 encoding" ref="category/jsp/errorprone.xml/JspEncoding"></rule>
-    <rule message="IFrames must have a src attribute." ref="category/jsp/security.xml/IframeMissingSrcAttribute"></rule>
-    <rule message="Using unsanitized JSP expression can lead to Cross Site Scripting (XSS) attacks" ref="category/jsp/security.xml/NoUnsanitizedJSPExpression"></rule>
-    <rule message="WHEN OTHERS THEN NULL - when you do this, Tom Kyte cries" ref="category/plsql/bestpractices.xml/TomKytesDespair"></rule>
-    <rule message="Pragma should be used only inside the declaration block before 'BEGIN'." ref="category/plsql/codestyle.xml/MisplacedPragma"></rule>
-    <rule message="Avoid really long methods." ref="category/plsql/design.xml/ExcessiveMethodLength"></rule>
-    <rule message="Avoid really long Oracle object specifications and bodies." ref="category/plsql/design.xml/ExcessiveObjectLength"></rule>
-    <rule message="Avoid really long Object Type and Package bodies." ref="category/plsql/design.xml/ExcessivePackageBodyLength"></rule>
-    <rule message="Avoid really long Package Specifications." ref="category/plsql/design.xml/ExcessivePackageSpecificationLength"></rule>
-    <rule message="Avoid long parameter lists." ref="category/plsql/design.xml/ExcessiveParameterList"></rule>
-    <rule message="Avoid really long Object Type specifications." ref="category/plsql/design.xml/ExcessiveTypeLength"></rule>
-    <rule message="This object has too many methods, consider refactoring it." ref="category/plsql/design.xml/TooManyMethods">
+    <rule message="A non-case label was present in a switch statement" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Non-static initializers are confusing" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid returning from a finally block" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Do not use 'if' statements that are always true or always false" ref="category/java/errorprone.xml/"></rule>
+    <rule message="assertTrue(true) or similar statements are unnecessary" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals()." ref="category/java/errorprone.xml/"></rule>
+    <rule message="Use equals() to compare strings instead of ''=='' or ''!=''" ref="category/java/errorprone.xml/"></rule>
+    <rule message="An operation on an Immutable object (String, BigDecimal or BigInteger) won't change the object itself" ref="category/java/errorprone.xml/"></rule>
+    <rule message="Avoid using java.lang.ThreadGroup; it is not thread safe" ref="category/java/multithreading.xml/"></rule>
+    <rule message="Don't call Thread.run() explicitly, use Thread.start()" ref="category/java/multithreading.xml/"></rule>
+    <rule message="Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead." ref="category/java/performance.xml/"></rule>
+    <rule message="Avoid instantiating String objects; this is usually unnecessary." ref="category/java/performance.xml/"></rule>
+    <rule message="Avoid calling toString() on String objects; this is unnecessary." ref="category/java/performance.xml/"></rule>
+    <rule message="This is an inefficient use of StringBuffer.toString; call StringBuffer.length instead." ref="category/java/performance.xml/"></rule>
+    <rule message="Do not nest JSF component custom actions inside a custom action that iterates over its body." ref="category/jsp/bestpractices.xml/"></rule>
+    <rule message="Do not use an attribute called 'class'." ref="category/jsp/bestpractices.xml/"></rule>
+    <rule message="Use JSP comments instead of HTML comments" ref="category/jsp/bestpractices.xml/"></rule>
+    <rule message="Do not do a forward from within a JSP file." ref="category/jsp/bestpractices.xml/"></rule>
+    <rule message="Avoid duplicate imports." ref="category/jsp/codestyle.xml/"></rule>
+    <rule message="Avoiding inlining HTML script content" ref="category/jsp/design.xml/"></rule>
+    <rule message="Avoid having style information in JSP files." ref="category/jsp/design.xml/"></rule>
+    <rule message="Avoid having long scripts (e.g. Javascript) inside a JSP file." ref="category/jsp/design.xml/"></rule>
+    <rule message="Avoid having scriptlets inside a JSP file." ref="category/jsp/design.xml/"></rule>
+    <rule message="JSP file should use UTF-8 encoding" ref="category/jsp/errorprone.xml/"></rule>
+    <rule message="IFrames must have a src attribute." ref="category/jsp/security.xml/"></rule>
+    <rule message="Using unsanitized JSP expression can lead to Cross Site Scripting (XSS) attacks" ref="category/jsp/security.xml/"></rule>
+    <rule message="WHEN OTHERS THEN NULL - when you do this, Tom Kyte cries" ref="category/plsql/bestpractices.xml/"></rule>
+    <rule message="Pragma should be used only inside the declaration block before 'BEGIN'." ref="category/plsql/codestyle.xml/"></rule>
+    <rule message="Avoid really long methods." ref="category/plsql/design.xml/"></rule>
+    <rule message="Avoid really long Oracle object specifications and bodies." ref="category/plsql/design.xml/"></rule>
+    <rule message="Avoid really long Object Type and Package bodies." ref="category/plsql/design.xml/"></rule>
+    <rule message="Avoid really long Package Specifications." ref="category/plsql/design.xml/"></rule>
+    <rule message="Avoid long parameter lists." ref="category/plsql/design.xml/"></rule>
+    <rule message="Avoid really long Object Type specifications." ref="category/plsql/design.xml/"></rule>
+    <rule message="This object has too many methods, consider refactoring it." ref="category/plsql/design.xml/">
         <properties>
             <property name="maxmethods">
                 <value>1</value>
@@ -164,36 +164,36 @@
         </properties>
     </rule>
     <rule message="TO_DATE without date format" ref="category/plsql/errorprone.xml/TO"></rule>
-    <rule message="TO_DATE(TO_CHAR(variable)) instead of TRUNC(variable)" ref="category/plsql/errorprone.xml/TO"></rule>
+    <rule message="TO_DATE(TO_CHAR(variable)) instead of TRUNC(variable)" ref="category/plsql/errorprone.xml/TO_DATE_TO"></rule>
     <rule message="TO_TIMESTAMP without date format" ref="category/plsql/errorprone.xml/TO"></rule>
-    <rule message="By default, Maven only recognizes the following types: pom, jar, maven-plugin, ejb, war, ear, rar, par." ref="category/pom/errorprone.xml/InvalidDependencyTypes">
+    <rule message="By default, Maven only recognizes the following types: pom, jar, maven-plugin, ejb, war, ear, rar, par." ref="category/pom/errorprone.xml/">
         <properties>
             <property name="validTypes">
                 <value>pom,jar,maven-plugin,ejb,war,ear,rar,par</value>
             </property>
         </properties>
     </rule>
-    <rule message="Do not use project.version to express a dependency version." ref="category/pom/errorprone.xml/ProjectVersionAsDependencyVersion"></rule>
-    <rule message="Avoid calling VF action upon page load" ref="category/vf/security.xml/VfCsrf"></rule>
-    <rule message="Avoid unescaped user controlled content in EL" ref="category/vf/security.xml/VfUnescapeEl"></rule>
-    <rule message="Avoid reassigning macro parameters." ref="category/vm/bestpractices.xml/AvoidReassigningParameters"></rule>
-    <rule message="Avoid unused macro parameters." ref="category/vm/bestpractices.xml/UnusedMacroParameter"></rule>
-    <rule message="Deeply nested if..then statements are hard to read" ref="category/vm/design.xml/AvoidDeeplyNestedIfStmts"></rule>
-    <rule message="These nested if statements could be combined" ref="category/vm/design.xml/CollapsibleIfStatements"></rule>
-    <rule message="Template is too long" ref="category/vm/design.xml/ExcessiveTemplateLength">
+    <rule message="Do not use project.version to express a dependency version." ref="category/pom/errorprone.xml/"></rule>
+    <rule message="Avoid calling VF action upon page load" ref="category/vf/security.xml/"></rule>
+    <rule message="Avoid unescaped user controlled content in EL" ref="category/vf/security.xml/"></rule>
+    <rule message="Avoid reassigning macro parameters." ref="category/vm/bestpractices.xml/"></rule>
+    <rule message="Avoid unused macro parameters." ref="category/vm/bestpractices.xml/"></rule>
+    <rule message="Deeply nested if..then statements are hard to read" ref="category/vm/design.xml/"></rule>
+    <rule message="These nested if statements could be combined" ref="category/vm/design.xml/"></rule>
+    <rule message="Template is too long" ref="category/vm/design.xml/">
         <properties>
             <property name="minimum">
                 <value>1000</value>
             </property>
         </properties>
     </rule>
-    <rule message="Avoid inline JavaScript" ref="category/vm/design.xml/NoInlineJavaScript"></rule>
-    <rule message="Avoid inline styles" ref="category/vm/design.xml/NoInlineStyles"></rule>
-    <rule message="Avoid empty foreach loops" ref="category/vm/errorprone.xml/EmptyForeachStmt"></rule>
-    <rule message="Avoid empty if statements" ref="category/vm/errorprone.xml/EmptyIfStmt"></rule>
-    <rule message="Potentially mistyped CDATA section with extra [ at beginning or ] at the end." ref="category/xml/errorprone.xml/MistypedCDATASection"></rule>
-    <rule message="The xpath concat() function accepts as many arguments as required, you may be able to factorize this expression" ref="category/xsl/codestyle.xml/UseConcatOnce"></rule>
-    <rule message="Axis navigation has the largest impact when writing an XPath query." ref="category/xsl/performance.xml/AvoidAxisNavigation">
+    <rule message="Avoid inline JavaScript" ref="category/vm/design.xml/"></rule>
+    <rule message="Avoid inline styles" ref="category/vm/design.xml/"></rule>
+    <rule message="Avoid empty foreach loops" ref="category/vm/errorprone.xml/"></rule>
+    <rule message="Avoid empty if statements" ref="category/vm/errorprone.xml/"></rule>
+    <rule message="Potentially mistyped CDATA section with extra [ at beginning or ] at the end." ref="category/xml/errorprone.xml/"></rule>
+    <rule message="The xpath concat() function accepts as many arguments as required, you may be able to factorize this expression" ref="category/xsl/codestyle.xml/"></rule>
+    <rule message="Axis navigation has the largest impact when writing an XPath query." ref="category/xsl/performance.xml/">
         <properties>
             <property name="checkSelfDescendantAbreviation">
                 <value>false</value>
